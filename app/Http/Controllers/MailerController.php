@@ -57,11 +57,11 @@ class MailerController extends Controller
                 $mail->AltBody = $pesan;
                 $mail->send();
 
-                // if ($mail->send()) {
-                //     return back()->with('berhasil', 'Email berhasil dikirim');
-                // } else {
-                //     return back()->with('gagal', 'Email gagal dikirim')->withErrors($mail->ErrorInfo);
-                // }
+                if ($mail->send()) {
+                    return back()->with('berhasil', 'Email berhasil dikirim');
+                } else {
+                    return back()->with('gagal', 'Email gagal dikirim')->withErrors($mail->ErrorInfo);
+                }
 
             } catch (Exception $e) {
                 return back()->with('error', $mail->ErrorInfo);
