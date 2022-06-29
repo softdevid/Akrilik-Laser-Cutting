@@ -33,9 +33,9 @@ class MailerController extends Controller
                 $mail->AuthType = 'XOAUTH2';
 
                 $email_send = 'tesssany@gmail.com';
-                $clientId = '734549949759-ld6k8mhde7aueo5b86o8fbg9ceftvs3n.apps.googleusercontent.com';
-                $clientSecret = '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';
-                $refreshToken = '1//0gor-6-ZV4uncCgYIARAAGBASNwF-L9IrKo-2L4r_seC59u7J_-iqwpoim7XVr_3tXy5wxwyl1bM2HZXpMqTdSG-uWe2EIes5tks';
+                $clientId = '734549949759-jh6udc4hh81n02g28s5r1dd3dts7ahit.apps.googleusercontent.com';
+                $clientSecret = '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';
+                $refreshToken = '1//0g0mJt_Albr2OCgYIARAAGBASNwF-L9Ir2Q0ohiyLPJZyC3I4BLXwGBHe2M6AHHiUFnqEF_ZAmGDj3_Sk1MRuCs-7N3kT5zC13IE';
 
                 $provider = new Google(['clientId' => $clientId, 'clientSecret' => $clientSecret]);
                 $mail->setOAuth(new OAuth(['provider' => $provider, 'clientId' => $clientId, 'clientSecret' => $clientSecret, 'refreshToken' => $refreshToken, 'userName' => $email_send,]));
@@ -55,12 +55,13 @@ class MailerController extends Controller
                     <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Pesan : ' . $pesan . '</p>
                 </div>';
                 $mail->AltBody = $pesan;
+                $mail->send();
 
-                if ($mail->send()) {
-                    return back()->with('berhasil', 'Email berhasil dikirim');
-                } else {
-                    return back()->with('gagal', 'Email gagal dikirim')->withErrors($mail->ErrorInfo);
-                }
+                // if ($mail->send()) {
+                //     return back()->with('berhasil', 'Email berhasil dikirim');
+                // } else {
+                //     return back()->with('gagal', 'Email gagal dikirim')->withErrors($mail->ErrorInfo);
+                // }
 
             } catch (Exception $e) {
                 return back()->with('error', $mail->ErrorInfo);
