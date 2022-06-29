@@ -71,26 +71,26 @@
             layar (gawai, tv, komputer, layar LED dan sejenisnya), luring, daring atau virtual, yang berhubungan
             dengan pembuatan materi dengan fungsi identifikasi, informasi dan persuasi yang diimplementasikan pada
             identitas jenama (brand), logo, desain iklan, infografik, dan stasioneri.</p>
-        </article>
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="h-100 border-0">
-                        <img src="/img/profil/desain1.jpeg" class="card-img-top" id="img-profil-desain" alt="...">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="h-100 border-0">
+                            <img src="/img/profil/desain1.jpeg" class="card-img-top" id="img-profil-desain" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
-                    <div class="h-100 border-0">
-                        <img src="/img/profil/desain2.png" class="card-img-top" id="img-profil-desain" alt="...">
+                    <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="h-100 border-0">
+                            <img src="/img/profil/desain2.png" class="card-img-top" id="img-profil-desain" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
-                    <div class="h-100 border-0">
-                        <img src="/img/profil/desain3.jpeg" class="card-img-top" id="img-profil-desain" alt="...">
+                    <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
+                        <div class="h-100 border-0">
+                            <img src="/img/profil/desain3.jpeg" class="card-img-top" id="img-profil-desain" alt="...">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     <article class="article-6 pt-2">
         <p>
         <h3 class="fw-bold">Aktivitas Konsultasi dan Perancangan Internet of Things (IoT)</h3>
@@ -101,26 +101,26 @@
             dilakukan pada perangkat keras (hardware) IoT dan/atau perangkat lunak (software) yang tertanam
             didalamnya. Kelompok ini tidak mencakup aktivitas manufaktur chip (26120) dan aktivitas
             penerbitan/pengembangan perangkat lunak IoT (58200 dan 62019).</p>
-        </article>
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="h-100 border-0">
-                        <img src="/img/profil/iot1.jpeg" class="card-img-top" id="img-profil" alt="...">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="h-100 border-0">
+                            <img src="/img/profil/iot1.jpeg" class="card-img-top" id="img-profil" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
-                    <div class="h-100 border-0">
-                        <img src="/img/profil/iot2.jpeg" class="card-img-top" id="img-profil" alt="...">
+                    <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="h-100 border-0">
+                            <img src="/img/profil/iot2.jpeg" class="card-img-top" id="img-profil" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
-                    <div class="h-100 border-0">
-                        <img src="/img/profil/iot3.jpeg" class="card-img-top" id="img-profil" alt="...">
+                    <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
+                        <div class="h-100 border-0">
+                            <img src="/img/profil/iot3.jpeg" class="card-img-top" id="img-profil" alt="...">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     <!-- </div> -->
 </div>
 
