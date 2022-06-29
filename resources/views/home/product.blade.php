@@ -77,7 +77,7 @@
                         <div class="col-md-8">
                             <h4 class="fw-bold">Bening</h4>
                             <article>
-                                Lembaran kilap yang bening, tidak berwarna dan memiliki tingkat transparansi yang tinggi, yang memungkinkan untuk menghantarkan cahaya hingga 92%. Kualitas lain yang juga terdapat pada acrylic kami adalah ketahanan terhadap kondisi cuaca dan ketahanan terhadap keretakan. Menjadikan Astariglas® pilihan yang tepat bagi para pengguna produk acrylic yang membutuhkan bahan/materi tembus pandang, seperti akuarim, peredam suara, dan pembatas keamanan untuk teller di bank.
+                                <p>Lembaran kilap yang bening, tidak berwarna dan memiliki tingkat transparansi yang tinggi, yang memungkinkan untuk menghantarkan cahaya hingga 92%. Kualitas lain yang juga terdapat pada acrylic kami adalah ketahanan terhadap kondisi cuaca dan ketahanan terhadap keretakan. Menjadikan Astariglas® pilihan yang tepat bagi para pengguna produk acrylic yang membutuhkan bahan/materi tembus pandang, seperti akuarim, peredam suara, dan pembatas keamanan untuk teller di bank.</p>
                             </article>
                         </div>
                     </div>
