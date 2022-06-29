@@ -69,12 +69,6 @@ body {
     font-family: sans-serif;
 }
 
-
-/* 
-.talk-main {
-  padding: 80px;
-} */
-
 .talk-title-wrap {
     margin-bottom: 50px;
 }
@@ -328,7 +322,7 @@ body {
     text-align: center;
     font-weight: 700;
     position: relative;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 
 #judul::before {

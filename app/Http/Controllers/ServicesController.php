@@ -18,13 +18,13 @@ class ServicesController extends Controller
         $services = Services::all();
         $advertising = Services::where('jenis_service' , 'advertising')->get();
         $digital = Services::where('jenis_service' , 'digital creative')->get();
-        return view('home.services', ['title' => $title, 'services' => $services, 'advertising' => $advertising, 'digital' => $digital]);
+        return view('home/services', ['title' => $title, 'services' => $services, 'advertising' => $advertising, 'digital' => $digital]);
     }
 
     public function detail_service($slug)
     {
         $services = Services::where($slug)->get();
-        return view('services.detail-services', compact('services'));
+        return view('services/detail-services', compact('services'));
     }
 
     /**

@@ -79,8 +79,10 @@
     </footer>
 
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i
+            class="fa fa-arrow-up"></i></button>
 
     <!-- scroll top button -->
 

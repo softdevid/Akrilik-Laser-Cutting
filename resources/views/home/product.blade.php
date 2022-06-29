@@ -15,7 +15,7 @@
             <img src="/img/product/GP.png" class="header-produk pb-4" alt="GP">
         </div>
         <div class="col-md-6">
-            <article>
+            <article class="artikel1">
                 <h3 class="fw-bold">Informasi Produk</h3>
                 <p>
                     Lembaran akrilik dari Akrilik Laser Cutting dibuat dari 100%
@@ -44,7 +44,7 @@
                     dan ketebalan, bening maupun berwarna.
                 </p>
             </article>
-            <article>
+            <article class="artikel2">
                 <h3 class="fw-bold">Karakteristik</h3>
                 <p>
                     ASTARIGLAS® GP adalah bahan termoplastik yang ringan dan
@@ -60,8 +60,8 @@
     </div>
 </div>
 <div class="container">
-    <h3 class="mt-5">Varian Produk</h3>
-    <div class="background-produk">
+    <h3 class="mt-5 varian-produk">Varian Produk</h3>
+    <div class="background-produk daftar-produk">
         <ul class="nav nav-pills mb-3 justify-content-center align-items-center p-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-bening-tab" data-bs-toggle="pill"
