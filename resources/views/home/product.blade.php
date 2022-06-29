@@ -48,84 +48,47 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <h5 class="pb-4">Varian Produk</h5>
-        <div class="justify-content-center">
-            <div class="col-md-12">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active button" id="pills-all-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
-                            aria-selected="true">BENING</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link button" id="pills-timbul-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-timbul" type="button" role="tab" aria-controls="pills-timbul"
-                            aria-selected="false">PUTIH SUSU DAN PUTIH SOLID</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link button" id="pills-neonbox-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-neonbox" type="button" role="tab" aria-controls="pills-neonbox"
-                            aria-selected="false">WARNA TRANSPARAN</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link button" id="pills-reklame-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-reklame" type="button" role="tab" aria-controls="pills-reklame"
-                            aria-selected="false">WARNA TINTED</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link button" id="pills-digitalcreative-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-digitalcreative" type="button" role="tab"
-                            aria-controls="pills-digitalcreative" aria-selected="false">WARNA SOLID DAN BURAM</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link button" id="pills-iot-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot"
-                            aria-selected="false">WARNA FLUORESCENT / NEON</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
-                        aria-labelledby="pills-all-tab" tabindex="0">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-timbul" role="tabpanel" aria-labelledby="pills-timbul-tab"
-                        tabindex="0">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-neonbox" role="tabpanel" aria-labelledby="pills-neonbox-tab"
-                        tabindex="0">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-reklame" role="tabpanel" aria-labelledby="pills-reklame-tab"
-                        tabindex="0">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-digitalcreative" role="tabpanel"
-                        aria-labelledby="pills-digitalcreative-tab" tabindex="0">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-iot" role="tabpanel" aria-labelledby="pills-iot-tab"
-                        tabindex="0">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
+    <h3>Varian Produk</h3>
+    <div class="background-produk">
+        <ul class="nav nav-pills mb-3 justify-content-center p-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-bening-tab" data-bs-toggle="pill" data-bs-target="#pills-bening" type="button" role="tab" aria-controls="pills-bening" aria-selected="true">BENING</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-putih-tab" data-bs-toggle="pill" data-bs-target="#pills-putih" type="button" role="tab" aria-controls="pills-putih" aria-selected="false">PUTIH SUSU DAN PUTIH SOLID</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-transparan-tab" data-bs-toggle="pill" data-bs-target="#pills-transparan" type="button" role="tab" aria-controls="pills-transaparan" aria-selected="false">WARNA TRANSPARAN</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-tinted-tab" data-bs-toggle="pill" data-bs-target="#pills-tinted" type="button" role="tab" aria-controls="pills-tinted" aria-selected="false">WARNA TINTED</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-wsb-tab" data-bs-toggle="pill" data-bs-target="#pills-wsb" type="button" role="tab" aria-controls="pills-wsb" aria-selected="false">WARNA SOLID DAN BURAM</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-neon-tab" data-bs-toggle="pill" data-bs-target="#pills-neon" type="button" role="tab" aria-controls="pills-neon" aria-selected="false">WARNA FLUORESCENT / NEON</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-bening" role="tabpanel" aria-labelledby="pills-bening-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4 class="fw-bold">Bening</h4>
+                            <article>
+                                Lembaran kilap yang bening, tidak berwarna dan memiliki tingkat transparansi yang tinggi, yang memungkinkan untuk menghantarkan cahaya hingga 92%. Kualitas lain yang juga terdapat pada acrylic kami adalah ketahanan terhadap kondisi cuaca dan ketahanan terhadap keretakan. Menjadikan Astariglas® pilihan yang tepat bagi para pengguna produk acrylic yang membutuhkan bahan/materi tembus pandang, seperti akuarim, peredam suara, dan pembatas keamanan untuk teller di bank.
+                            </article>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="tab-pane fade" id="pills-putih" role="tabpanel" aria-labelledby="pills-putih-tab">...</div>
+            <div class="tab-pane fade" id="pills-transparan" role="tabpanel" aria-labelledby="pills-transparan-tab">...</div>
+            <div class="tab-pane fade" id="pills-tinted" role="tabpanel" aria-labelledby="pills-tinted-tab">...</div>
+            <div class="tab-pane fade" id="pills-wsb" role="tabpanel" aria-labelledby="pills-wsb-tab">...</div>
+            <div class="tab-pane fade" id="pills-neon" role="tabpanel" aria-labelledby="pills-neon-tab">...</div>
+          </div>
     </div>
 </div>
-
-
 @stop
