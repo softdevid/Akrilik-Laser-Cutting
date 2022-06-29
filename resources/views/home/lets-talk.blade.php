@@ -144,7 +144,7 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="card border-0 mb-3" style="max-width: 540px;">
-                                            <div class="row g-0">
+                                            <div class="row g-0 stack2">
                                                 <div class="col-md-4 d-flex justify-content-center">
                                                     <div class="d-flex justify-content-center align-items-center">
                                                         <span class="fa-stack stack4" style="vertical-align: top; font-size: 40px">
@@ -155,26 +155,6 @@
                                                 </div>
                                                 <div class="col-md-8 text-md-start text-center">
                                                     <div class="card-body isi-stack4">
-                                                        <h5 class="card-title">Mekar Cutting Digital Head Office</h5>
-                                                        <p class="card-text">Kalikabong, Kec. Kalimanah. <br>Purbalingga, Jawa Tengah.<br>53321</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="card border-0 mb-3" style="max-width: 540px;">
-                                            <div class="row g-0">
-                                                <div class="col-md-4 d-flex justify-content-center">
-                                                    <div class="d-flex justify-content-center align-items-center">
-                                                        <span class="fa-stack stack5" style="vertical-align: top; font-size: 40px">
-                                                            <i class="fa-regular fa-circle fa-stack-2x"></i>
-                                                            <i class="fa-solid fa-building fa-stack-1x"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-8 text-md-start text-center">
-                                                    <div class="card-body isi-stack5">
                                                         <h5 class="card-title">Mekar Cutting Digital Head Office</h5>
                                                         <p class="card-text">Kalikabong, Kec. Kalimanah. <br>Purbalingga, Jawa Tengah.<br>53321</p>
                                                     </div>

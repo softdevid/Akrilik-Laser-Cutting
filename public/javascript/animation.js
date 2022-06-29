@@ -117,3 +117,32 @@ gsap.from(".link-item4", {
     x: -100,
     opacity: 0,
 });
+gsap.from(".judul-talk", {
+    duration: 1,
+    y: -100,
+    opacity: 0,
+});
+gsap.from(".stack1", {
+    duration: 1,
+    delay: 0.5,
+    x: -100,
+    opacity: 0,
+});
+gsap.from(".form-talk", {
+    duration: 1,
+    delay: 1,
+    x: 100,
+    opacity: 0,
+});
+gsap.from(".judul-lokasi", {
+    duration: 1,
+    delay: 1.5,
+    y: -100,
+    opacity: 0,
+});
+gsap.from(".stack2", {
+    duration: 1,
+    delay: 2,
+    x: -100,
+    opacity: 0,
+});
