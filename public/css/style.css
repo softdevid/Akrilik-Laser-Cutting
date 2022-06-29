@@ -19,13 +19,12 @@
     color: #ffff;
 }
 
-.dropdown .isi-dropdown a:hover {
-    background-color: #242424;
+.navbar-collapse .navbar-nav {
+    font-weight: bold !important;
 }
 
-.dropdown-item li a:active {
-    background: #000000;
-    color: #ffff;
+.dropdown .isi-dropdown a:hover {
+    background-color: #242424;
 }
 
 .profile-p {
