@@ -11,10 +11,12 @@
     transform: translateY(0);
   }
 } */
+
 .nav-pills .nav-item .nav-link:hover {
     background-color: #363636;
     color: #fff;
 }
+
 .nav-pills .nav-item .nav-link {
     color: rgb(0, 0, 0);
 }
@@ -67,6 +69,7 @@ body {
     font-family: sans-serif;
 }
 
+
 /* 
 .talk-main {
   padding: 80px;
@@ -87,6 +90,7 @@ body {
 .background-portfolio {
     background-color: white;
 }
+
 .background-produk {
     background-color: white;
 }
@@ -95,9 +99,13 @@ body {
     padding-top: 6rem;
     padding-bottom: 2rem;
 }
+
 .background-produk ul {
-    padding-top: 6rem;
     padding-bottom: 2rem;
+}
+
+.background-produk ul li {
+    list-style: none;
 }
 
 .card-hover1 img {
