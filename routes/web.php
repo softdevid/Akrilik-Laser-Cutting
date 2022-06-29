@@ -27,7 +27,7 @@ Route::get('/portfolio', [HomeController::class, 'portfolio']);
 Route::resource('/portfolio', PortfolioController::class);
 
 Route::get('/talk', [HomeController::class, 'talk']);
-Route::post('/talk/send-mail/', [MailerController::class, 'sendMail']);
+Route::match(['get', 'post'], '/talk/send-mail', [MailerController::class, 'sendMail']);
 
 Route::get('/product', [HomeController::class, 'product']);
 

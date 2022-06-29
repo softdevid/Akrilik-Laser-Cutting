@@ -82,7 +82,7 @@
                                                 {{ Session::get('gagal') }}
                                             </div>
                                             @endif
-                                            <form method="POST" action="/talk/send-mail/" enctype="multipart/form-data" class="needs-validation" novalidate>
+                                            <form method="POST" action="/talk/send-mail" enctype="multipart/form-data" class="needs-validation" novalidate>
                                                 @csrf
                                                 <div class="mb-2">
                                                     <label for="talk-name" class="form-label">Nama</label>

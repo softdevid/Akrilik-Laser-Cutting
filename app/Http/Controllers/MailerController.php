@@ -13,7 +13,7 @@ class MailerController extends Controller
 {
     public function sendMail(Request $request)
     {
-        if ($request->isMethod('POST')) {
+        if (isset($_POST['kirim'])) {
             require base_path('vendor/autoload.php');
 
             $mail = new PHPMailer(true);
@@ -66,6 +66,8 @@ class MailerController extends Controller
             } catch (Exception $e) {
                 return back()->with('error', $mail->ErrorInfo);
             }
+        } else {
+            return redirect('/talk');
         }
     }
 }
