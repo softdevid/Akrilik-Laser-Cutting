@@ -5,6 +5,7 @@ use App\Http\Controllers\TeamController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MailerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,7 @@ Route::get('/portfolio', [HomeController::class, 'portfolio']);
 Route::resource('/portfolio', PortfolioController::class);
 
 Route::get('/talk', [HomeController::class, 'talk']);
+Route::post('/talk/send-mail/', [MailerController::class, 'sendMail']);
 
 Route::get('/product', [HomeController::class, 'product']);
 

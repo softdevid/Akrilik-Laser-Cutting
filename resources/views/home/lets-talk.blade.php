@@ -72,8 +72,18 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-7" style="padding-left: 15px; padding-right: 15px;">
-                                        <div class="p-md-5 p-3 form-talk" style="background-color: #f8f8f8;border-color: #dddddd;border-style: solid;border-width: 1px;border-radius: 2px;">                                            
+                                        <div class="p-md-5 p-3 form-talk" style="background-color: #f8f8f8;border-color: #dddddd;border-style: solid;border-width: 1px;border-radius: 2px;">
+                                            @if (Session::has('berhasil'))
+                                            <div class="alert alert-success" role="alert">
+                                                {{ Session::get('berhasil') }}
+                                            </div>
+                                            @elseif (Session::has('gagal'))
+                                            <div class="alert alert-danger" role="alert">
+                                                {{ Session::get('gagal') }}
+                                            </div>
+                                            @endif
                                             <form method="POST" action="/talk/send-mail/" enctype="multipart/form-data" class="needs-validation" novalidate>
+                                                @csrf
                                                 <div class="mb-2">
                                                     <label for="talk-name" class="form-label">Nama</label>
                                                     <input type="text" name="nama" class="form-control form-control-lg" id="talk-name" required>
@@ -97,11 +107,32 @@
                                                 </div>
                                                 <div class="mb-2">
                                                     <label for="talk-message" class="form-label">Pesan
-                                                        (Optional)</label>
+                                                        (Opsional)</label>
                                                     <textarea name="pesan" class="form-control" id="talk-message"></textarea>
                                                 </div>
                                                 <button type="submit" name="kirim" class="btn btn-lg text-white" style="padding: 8px 30px 8px 30px; background-color: #173052;">Submit</button>
-                                            </form>                                            
+                                            </form>
+                                            <script type="text/javascript">
+                                                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                                (() => {
+                                                'use strict'
+
+                                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                                const forms = document.querySelectorAll('.needs-validation')
+
+                                                // Loop over them and prevent submission
+                                                Array.from(forms).forEach(form => {
+                                                    form.addEventListener('submit', event => {
+                                                    if (!form.checkValidity()) {
+                                                        event.preventDefault()
+                                                        event.stopPropagation()
+                                                    }
+
+                                                    form.classList.add('was-validated')
+                                                    }, false)
+                                                })
+                                                })()
+                                            </script>
                                         </div>
                                     </div>
                                 </div>
