@@ -1,0 +1,618 @@
+/* .tab-pane.active {mg
+  animation: slide-down 1s ease-out;
+}
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+.dropdown .isi-dropdown {
+    background-color: #3f3f3f;
+}
+
+.dropdown .isi-dropdown a {
+    color: #ffff;
+}
+
+.dropdown .isi-dropdown a:hover {
+    background-color: #242424;
+}
+
+.dropdown-item li a:active {
+    background: #000000;
+    color: #ffff;
+}
+
+.profile-p {
+    padding-top: 5rem;
+}
+
+.profile-p p {
+    font-size: 17px;
+}
+
+.profile-p li {
+    font-size: 17px;
+}
+
+.profile-p img {
+    max-width: 100%;
+}
+
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* 
+.talk-main {
+  padding: 80px;
+} */
+
+.talk-title-wrap {
+    margin-bottom: 50px;
+}
+
+.talk-content {
+    margin-bottom: 90px;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+
+.background-portfolio {
+    background-color: white;
+}
+
+.background-portfolio ul {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.card-hover1 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover1:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover1 .text-bottom {
+    padding-top: 12rem;
+}
+
+.card-hover2 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover2:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover2 .text-bottom {
+    padding-top: 12rem;
+}
+
+.card-hover3 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover3:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover3 .text-bottom {
+    padding-top: 12rem;
+}
+
+.card-hover4 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover4:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover4 .text-bottom {
+    padding-top: 12rem;
+}
+
+.card-hover5 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover5:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover5 .text-bottom {
+    padding-top: 12rem;
+}
+
+.card-hover6 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover6:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover6 .text-bottom {
+    padding-top: 12rem;
+}
+
+.card-hover7 img {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.card-hover7:hover img {
+    opacity: 0.3;
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-hover7 .text-bottom {
+    padding-top: 12rem;
+}
+
+#button {
+    border-radius: 0;
+}
+
+#gambar {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 17rem;
+    max-height: 17rem;
+    min-width: 100%;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: white;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 10px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top i {
+    padding-top: 8px;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 15px;
+    }
+}
+
+.head-intro-inner .head-content-slot {
+    justify-content: center;
+    margin: 3px 0;
+    flex: auto;
+}
+
+.left-nav {
+    position: relative;
+    flex: none;
+    margin: 0 10px;
+}
+
+.whatsapp {
+    position: fixed;
+    background: rgb(8, 199, 8);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 1;
+    font-size: 30px;
+    border-radius: 50%;
+    left: 20px;
+    bottom: 20px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.whatsapp i {
+    padding-top: 8px;
+    color: white;
+}
+
+#carousel-gambar {
+    max-height: 550px;
+    opacity: 0.7;
+}
+
+#judul {
+    /* font-size: 32px; */
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#judul::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+#judul::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.btn-penawaran {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-penawaran:hover {
+    color: white;
+}
+
+.penawaran {
+    background: black;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.accordion-item button {
+    background-color: #000000;
+    color: white;
+}
+
+hr.line1 {
+    border: 1px solid red;
+}
+
+hr.line {
+    border: 1px solid red;
+}
+
+hr.line2 {
+    border: 1px solid red;
+}
+
+hr.line3 {
+    border: 1px solid red;
+}
+
+.row .col-md-3 {
+    padding-left: 2rem;
+}
+
+span.text-uppercase {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social .nav-link {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    width: 45px;
+    height: auto;
+}
+
+.social .nav-link:hover {
+    font-size: 30px;
+    color: rgb(92, 92, 92);
+    text-decoration: none;
+    width: 45px;
+    height: auto;
+}
+
+.social i {
+    font-size: 45px;
+    padding: 8px;
+}
+
+.row .nav-link {
+    padding-left: 2px;
+}
+
+.kategori1 {
+    background: rgb(197, 194, 194);
+    color: black;
+    text-decoration: none;
+    height: 50px;
+}
+
+.kategori2 {
+    background: rgb(197, 194, 194);
+    color: black;
+    text-decoration: none;
+    height: 50px;
+}
+
+.kategori3 {
+    background: rgb(197, 194, 194);
+    color: black;
+    text-decoration: none;
+    height: 50px;
+}
+
+.services-category1.active {
+    background: #173052;
+    color: white;
+    text-decoration: none;
+}
+
+.services-category2.active {
+    background: #173052;
+    color: white;
+    text-decoration: none;
+}
+
+.services-category3.active {
+    background: #173052;
+    color: white;
+    text-decoration: none;
+}
+
+.kategori1 h5 {
+    margin: 10px auto;
+}
+
+.kategori2 h5 {
+    margin: 10px auto;
+}
+
+.kategori3 h5 {
+    margin: 10px auto;
+}
+
+.sub-item1 .sub-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.sub-item1 .sub-header:hover {
+    text-decoration: none;
+    color: rgb(13, 101, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item1 .sub-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: #0a2144;
+    padding: 0;
+}
+
+.sub-item2 .sub-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.sub-item2 .sub-header:hover {
+    text-decoration: none;
+    color: rgb(13, 101, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item2 .sub-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: #0a2144;
+    padding: 0;
+}
+
+.sub-item3 .sub-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.sub-item3 .sub-header:hover {
+    text-decoration: none;
+    color: rgb(13, 101, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item3 .sub-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: #0a2144;
+    padding: 0;
+}
+
+.sub-item4 .sub-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.sub-item4 .sub-header:hover {
+    text-decoration: none;
+    color: rgb(13, 101, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item4 .sub-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: #0a2144;
+    padding: 0;
+}
+
+.sub-item .sub-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.sub-item .sub-header:hover {
+    text-decoration: none;
+    color: rgb(13, 101, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item .sub-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: #0a2144;
+    padding: 0;
+}
+
+.social .row {
+    padding-left: 13px;
+}
+
+#img-profil {
+    min-width: 100%;
+    min-height: auto;
+    max-height: 17rem;
+    border-radius: 10px;
+}
+
+#img-profil-desain {
+    min-width: 100%;
+    min-height: auto;
+    max-height: 20rem;
+    border-radius: 10px;
+}
+
+.judul-kartu {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.judul-kartu:hover {
+    text-decoration: none;
+    color: rgb(13, 101, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul-blog {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.judul-talk {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+
+.header-produk {
+    width: 85%;
+}
+
+.isi-header {
+    padding-top: 6rem;
+}
+
+#contact {
+    padding: 60px 0;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#contact .contact-info i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
