@@ -46,31 +46,24 @@
         </div>
         <div class="py-3 article" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <p>
-                <b>CV. Mekar Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis
-                di kota
+                <b>CV. Mekar Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di
+                kota
                 Purbalingga.
                 <b>CV. Mekar Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang
                 periklanan,
                 promosi dan branding
-                selama lebih dari 5 tahun. Spesialis Jasa Pembuatan Reklame Huruf Timbul, Neon Box, Baliho dan
-                Branding
+                selama lebih dari 5 tahun. Spesialis Jasa Pembuatan Reklame Huruf Timbul, Neon Box, Baliho dan Branding
                 instansi yang selalu mengutamakan
-                kualitas dan mengedepankan professionalisme kerja serta berkomitmen memberikan harga yang realistis
-                bagi
+                kualitas dan mengedepankan professionalisme kerja serta berkomitmen memberikan harga yang realistis bagi
                 klien. Selain produksi Reklame, <b>CV. Mekar Cutting Digital</b> juga melayani kebutuhan Digital
                 Marketing
-                sebagai solusi pemasaran digital. Kami menawarkan beberapa macam kebutuhan akan jasa digital
-                marketing
-                antara lain, pembuatan website, optimasi website, audit dan analisa website / social media,
-                pengelolaan
-                social media, foto produk, pembuatan logo, personal / politik branding. <b>CV. Mekar Cutting
-                    Digital</b>
+                sebagai solusi pemasaran digital. Kami menawarkan beberapa macam kebutuhan akan jasa digital marketing
+                antara lain, pembuatan website, optimasi website, audit dan analisa website / social media, pengelolaan
+                social media, foto produk, pembuatan logo, personal / politik branding. <b>CV. Mekar Cutting Digital</b>
                 adalah One Stop Solutions yang tepat untuk membangun Branding produk atau usaha Anda, menciptakan
                 strategi
-                pemasaran baik offline maupun online. Suatu kebanggaan tersendiri bagi kami untuk membantu bisnis
-                anda
-                tumbuh dan berkembang di era digital. Membantu mendapatkan lebih banyak leads dari trafik,
-                Memenangkan
+                pemasaran baik offline maupun online. Suatu kebanggaan tersendiri bagi kami untuk membantu bisnis anda
+                tumbuh dan berkembang di era digital. Membantu mendapatkan lebih banyak leads dari trafik, Memenangkan
                 penghargaan atas pekerjaan dan sumber daya kami selama ini.
             </p>
         </div>
@@ -88,10 +81,8 @@
                         <img src="/img/services/{{ $services->gambar }}" class="card-img-top" id="gambar" alt="...">
                         <div class="card-body mt-3">
                             <h5 class="card-title">{{ $services->judul_service }}</h5>
-                            <p class="card-text">
-                                {{ \Illuminate\Support\Str::limit($services->kutipan, 60, '...') }}</p>
-                            <a href="/services/{{ $services->id }}" class="btn btn-dark" id="button">Lebih
-                                lanjut</a>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit($services->kutipan, 60, '...') }}</p>
+                            <a href="/services/{{ $services->id }}" class="btn btn-dark" id="button">Lebih lanjut</a>
                         </div>
                     </div>
                 </div>
@@ -108,40 +99,22 @@
         </div>
         <div class="py-5 container text-justify">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col container-portfolio">
-                    <div class="content">
-                        <a target="_blank">
-                            <div class="content-overlay"></div>
-                            <img class="content-image1" src="/img/portfolio/3.png">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">Foto Bali</h3>
-                                <p class="content-text">Huruf Timbul</p>
-                            </div>
-                        </a>
+                <div class="col-md-4">
+                    <div class="image-box1">
+                        <img src="/img/portfolio/3.png" alt="Foto Bali" width="540" height="548" />
+                        <div class="overlayinn1">
+                            <h2>FOTO <span>BALI</span></h2>
+                            <p>Huruf Timbul</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col container-portfolio">
-                    <div class="content">
-                        <a target="_blank">
-                            <div class="content-overlay"></div>
-                            <img class="content-image2" src="/img/portfolio/neonbox.jpg">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">NeonBox</h3>
-                                <p class="content-text">NeonBox</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col container-portfolio">
-                    <div class="content">
-                        <a target="_blank">
-                            <div class="content-overlay"></div>
-                            <img class="content-image3" src="/img/portfolio/web.png">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">Website Perusahaan</h3>
-                                <p class="content-text">Digital Creative</p>
-                            </div>
-                        </a>
+                <div class="col-md-4">
+                    <div class="image-box2">
+                        <img src="/img/portfolio/neonbox.jpg" alt="NeonBox" width="540" height="548" />
+                        <div class="overlayinn2">
+                            <h2><span>NEONBOX</span></h2>
+                            <p>NeonBox</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,12 +127,10 @@
                     <img src="/img/carousel/2.jpg" class="d-block w-100" alt="..." style="height: 610px;">
                     <div class="carousel-caption d-md-block">
                         <div class="text-dark" style=" margin-bottom: 170px; font-weight:1000;">
-                            <h1 class="shadow"><span class="badge bg-dark text-white">Mekar Laser Cutting
-                                    Digital</span>
+                            <h1 class="shadow"><span class="badge bg-dark text-white">Mekar Laser Cutting Digital</span>
                             </h1>
                             <p>- Saatnya mengembangkan bisnis dengan tim yang tepat -</p>
-                            <a href="telp:+6285728060268" type="button" class="btn-penawaran">Dapatkan
-                                Penawaran</a>
+                            <a href="telp:+6285728060268" type="button" class="btn-penawaran">Dapatkan Penawaran</a>
                         </div>
                     </div>
                 </div>
@@ -192,8 +163,7 @@
                             <img src="/img/insight2.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Pemasangan desain Neon Box</h5>
-                                <p class="card-text">Ini adalah kegiatan pemasangan neon box sebelum di satukan
-                                    dengan
+                                <p class="card-text">Ini adalah kegiatan pemasangan neon box sebelum di satukan dengan
                                     kerangka neon box</p>
                                 <a href="#" class="btn btn-dark" id="button">Lebih lanjut</a>
                             </div>
@@ -204,10 +174,8 @@
                             <img src="/img/insight3.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Pemasangan Huruf Timbul</h5>
-                                <p class="card-text">Ini adalah kegiatan pemasangan tulisan timbul. Di gambar
-                                    tersebut
-                                    adalah contoh kegiatan pemasangan tulisan timbul untuk penamaan suatu ruangan.
-                                </p>
+                                <p class="card-text">Ini adalah kegiatan pemasangan tulisan timbul. Di gambar tersebut
+                                    adalah contoh kegiatan pemasangan tulisan timbul untuk penamaan suatu ruangan.</p>
                                 <a href="#" class="btn btn-dark" id="button">Lebih lanjut</a>
                             </div>
                         </div>
@@ -226,8 +194,7 @@
         <div class="py-5 article" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <p>
                 Apabila bisnis adalah hal utama bagi Anda, hal yang perlu dilakukan adalah fokus dan allout dalam
-                mempromosikannya. Dengan menggunakan jasa kami produk dan tempat usaha akan lebih sering dilirik
-                oleh
+                mempromosikannya. Dengan menggunakan jasa kami produk dan tempat usaha akan lebih sering dilirik oleh
                 masyarakat.</p>
 
             <p><b>Manfaat Jasa Online Advertising</b></p>
@@ -237,35 +204,29 @@
                 Cukup hubungi kami, kami yang akan mengerjakan semua.</p>
 
             <p>2. Memiliki Daya Tarik Bagi Konsumen.
-                Produk Advertising digunakan sebagai identitas yang penempatannya bisa ditempat, digantung dll.
-                Namun
+                Produk Advertising digunakan sebagai identitas yang penempatannya bisa ditempat, digantung dll. Namun
                 sangat efektif untuk memikat konsumen yang lewat di sekitarnya. Hal ini dikarenakan kemewahan dan
-                keistimewaan pada produk advertising akan memberikan kesan tersendiri bagi konsumen yang melihatnya.
-            </p>
+                keistimewaan pada produk advertising akan memberikan kesan tersendiri bagi konsumen yang melihatnya.</p>
 
             <p>3. Branding menjadi mudah dibaca dan lebih jelas.
-                Melakukan iklan usaha melalui produk advertising akan lebih mudah terlihat dan jelas dibaca,
-                misalnya
+                Melakukan iklan usaha melalui produk advertising akan lebih mudah terlihat dan jelas dibaca, misalnya
                 menggunakan huruf timbul. Karena huruf timbul menggunakan huruf yang besar, tegas, dan menonjol.
                 Terlebih jika pada huruf timbul diberi efek lampu LED akan semakin memudahkan khalayak umum
                 mengetahuinya. Dari sinilah konsumen bisa saja berdatangan untuk mencoba produk atau jasa yang
                 ditawarkan oleh usaha tersebut.</p>
 
             <p>4. Nama perusahaan mudah diingat dan semakin terkenal.
-                Dengan keahlian desain yang kami miliki, kami akan membantu Anda membuat produk yang menarik
-                sehingga
+                Dengan keahlian desain yang kami miliki, kami akan membantu Anda membuat produk yang menarik sehingga
                 khalayak umum akan mudah melihat dan mengingatnya. Masyarakat yang melihatnya lama kelamaan akan
                 familiar dengan logo atau brand dari huruf timbul perusahaan tersebut dan menjadi terkenal.</p>
 
             <p>5. Media promosi jangka panjang.
-                Produk advertising akan terpasang di depan tempat usaha dan menjadi media promosi jangka panjang
-                yang
+                Produk advertising akan terpasang di depan tempat usaha dan menjadi media promosi jangka panjang yang
                 tepat. Dengan membuat signage di Mekar Laser Cutting Digital, kami selalu membuat dari bahan yang
                 berkualitas dan mudah dalam perawatannya, sehingga signage Anda akan lebih tahan lama.</p>
 
             <p>6. Membuat tempat usaha / kantor mudah dicari
-                Sudah barang tentu dengan menggunakan produk advertising tempat usaha dan kantor Anda lebih mudah
-                dicari
+                Sudah barang tentu dengan menggunakan produk advertising tempat usaha dan kantor Anda lebih mudah dicari
                 oleh masyarakat.</p>
         </div>
     </article>
