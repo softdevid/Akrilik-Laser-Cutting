@@ -1,20 +1,19 @@
 @extends('layouts.template')
 @section ('content')
 
-<div class="jumbotron bg-cover text-white"
+<!--<div class="jumbotron bg-cover text-white"
     style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/product/product.jpg); padding: 120px; width: 100%;">
     <div class="container">
         <h1 class="display-7">Produk</h1>
-        <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p> -->
     </div>
-</div>
+</div> -->
+<div  style="border-top: 10px solid black;"></div>
 <div class="container">
     <div class="row isi-header">
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
             <img src="/img/product/GP.png" class="header-produk pb-4" alt="GP">
-        </div>
-        <div class="col-md-6">
+        </div> -->
+        <div class="col-md-12">
             <article class="artikel1">
                 <h3 class="fw-bold">Informasi Produk</h3>
                 <p>

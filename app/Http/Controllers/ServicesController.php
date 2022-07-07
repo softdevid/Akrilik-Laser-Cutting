@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Services;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
 class ServicesController extends Controller
 {
@@ -15,16 +17,10 @@ class ServicesController extends Controller
     public function index()
     {
       	$title = 'LAYANAN';
-        $services = Services::all();
+      	$services = Services::all();
         $advertising = Services::where('jenis_service' , 'advertising')->get();
-        $digital = Services::where('jenis_service' , 'digital creative')->get();
-        return view('home/services', ['title' => $title, 'services' => $services, 'advertising' => $advertising, 'digital' => $digital]);
-    }
-
-    public function detail_service($slug)
-    {
-        $services = Services::where($slug)->get();
-        return view('services/detail-services', compact('services'));
+        $digital = Services::where('jenis_service' , 'digital creative')->get();      	
+        return view('home.services', ['title' => $title, 'services' => $services, 'advertising' => $advertising, 'digital' => $digital]);
     }
 
     /**
@@ -54,10 +50,14 @@ class ServicesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
     public function show($id)
     {
-        //
-    }
+    	return view('services.detail-services', [    		
+    		'title' => 'Layanan',
+          	'services' => Services::find($id)
+    	]);
+    }    
 
     /**
      * Show the form for editing the specified resource.

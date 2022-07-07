@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="#">MEKAR LASER <br>
-            <span class="badge bg-dark text-white">Cutting Digital</span>
+        <a class="navbar-brand" href="#">
+        	<img src="/img/navbrand.png" alt="" width="250px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "BERANDA" ) ? 'active text-danger' : '' }}"href="/">Beranda</a>
+                    <a class="nav-link {{ ($title === "Jasa Akrilik dan Neon Box - Purbalingga" ) ? 'active text-danger' : '' }}"href="/">Beranda</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

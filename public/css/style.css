@@ -12,6 +12,15 @@
   }
 } */
 
+#judul h1 {
+ color: #df4626; 
+}
+#judul h3 {
+  color: #df4626;
+}
+.article {
+  text-align: justify;
+ }
 .nav-pills .nav-item .nav-link:hover {
     background-color: #363636;
     color: #fff;
@@ -64,6 +73,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-coverteam {
+  	background-attachment: static;
+  	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 body {
     font-family: sans-serif;
@@ -90,7 +105,7 @@ body {
 }
 
 .background-portfolio ul {
-    padding-top: 6rem;
+  	padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -100,6 +115,77 @@ body {
 
 .background-produk ul li {
     list-style: none;
+}
+
+.col.konten {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.konten .konten-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.konten:hover .konten-overlay{
+  opacity: 1;
+}
+
+.konten-image{
+  width: 100%;
+}
+
+.konten-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.konten:hover .konten-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.konten-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.konten-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
 }
 
 .card-hover1 img {
@@ -244,8 +330,9 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    min-height: 17rem;
-    max-height: 17rem;
+    height: auto;
+  	min-height: 18rem;
+    max-height: 18rem;
     min-width: 100%;
 }
 
@@ -311,7 +398,7 @@ body {
 }
 
 #carousel-gambar {
-    max-height: 550px;
+    max-height: 500px;
     opacity: 0.7;
 }
 
@@ -322,7 +409,7 @@ body {
     text-align: center;
     font-weight: 700;
     position: relative;
-    /* padding-bottom: 15px; */
+    padding-bottom: 7px;
 }
 
 #judul::before {
@@ -344,6 +431,40 @@ body {
     height: 3px;
     background: black;
     bottom: 0;
+  
+    left: calc(50% - 20px);
+}
+
+#nav-services {
+    /* font-size: 32px; */
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 7px;
+}
+
+#nav-services::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+#nav-services::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    bottom: 0;
+  
     left: calc(50% - 20px);
 }
 
@@ -620,7 +741,7 @@ span.text-uppercase {
 }
 
 .isi-header {
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
 #contact {
@@ -636,4 +757,59 @@ span.text-uppercase {
     color: black;
     text-align: center;
     margin-top: 5%;
+}
+
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.input-search{
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #22a6b3;
+  padding-right: 40px;
+  color: black;
+}
+.input-search::placeholder{
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color:#ffffff ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+.btn-search:focus ~ .input-search{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }

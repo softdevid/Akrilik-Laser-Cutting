@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Portfolio;
+use Illuminate\Support\Facades\DB;
 
 class PortfolioController extends Controller
 {
@@ -13,15 +14,21 @@ class PortfolioController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-      	$title = 'HASIL KERJA';
-        $portfolio = Portfolio::all();
+    {      	
+      	$title = 'HASIL KERJA';      	
         $huruftimbul = Portfolio::where('nama_kategori', 'huruf timbul')->get();
         $neon = Portfolio::where('nama_kategori', 'neon box')->get();
         $reklame = Portfolio::where('nama_kategori', 'papan reklame')->get();
         $digital = Portfolio::where('nama_kategori', 'digital creative')->get();
         $iot = Portfolio::where('nama_kategori', 'iot')->get();
-        return view('home.portfolio', ['title' => $title, 'portfolio' => $portfolio, 'huruftimbul' => $huruftimbul, 'neon' => $neon, 'reklame' => $reklame, 'digital' => $digital, 'iot' => $iot]);
+      	$akrilik = Portfolio::where('nama_kategori' , 'akrilik')->get();
+        
+        $search = Portfolio::latest();
+		if(request('search')) {
+            $search->where('judul_produk', 'like', '%' . request('search') . '%')->orWhere('nama_kategori', 'like', '%' . request('search') . '%');
+        }
+      	$portfolio = $search->get();
+        return view('home.portfolio', ['title' => $title, 'portfolio' => $portfolio, 'huruftimbul' => $huruftimbul, 'neon' => $neon, 'reklame' => $reklame, 'digital' => $digital, 'iot' => $iot, 'akrilik' => $akrilik]);
     }
 
     /**
@@ -53,7 +60,10 @@ class PortfolioController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('portfolio.detail-portfolio', [    		
+    		'title' => 'Hasil Kerja',
+          	'portfolio' => Portfolio::find($id)
+    	]);
     }
 
     /**

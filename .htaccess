@@ -1,0 +1,6 @@
+AuthGroupFile /dev/null
+AuthType Basic
+AuthUserFile /home/akrilikl/domains/akriliklasercutting.com/.htpasswd/public_html/akriliklasercutting/.htpasswd
+AuthName "akrilikl"
+require valid-user
+ErrorDocument 401 "Unauthorized Access"

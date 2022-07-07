@@ -2,69 +2,104 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+  	<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PBWQWTS');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVFZ7ZGY01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VVFZ7ZGY01');
+  </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="_fgc5AaqtqXnBl3p3kAfgF9RzNTtt3ih8cRr7VJXSHc" />
     <title>{{ $title }} | MEKAR LASER CUTTING DIGITAL</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="icon" href="/img/community.png">
+    <link rel="icon" href="/img/icon.png">
 
 </head>
 
 <body>
+  	<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBWQWTS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  
     @include('layouts.navbar')
     @yield('content')
 
-    <footer class="bd-footer py-4 py-md-5 mt-5 bg-light">
-        <div class="container py-4 py-md-5 px-4 px-md-3">
+    <footer class="bd-footer py-2 py-md-3 mt-3 bg-light">
+        <div class="container py-2 py-md-3 px-4 px-md-3">
             <div class="row">
                 <div class="col-lg-3 mb-3 text-dark">
                     <h5>Mekar Laser <span class="badge bg-dark text-white">Cutting Digital</span></h5>
                     <p>Dunia terus bergerak, Kami percaya bahwa perubahan dalam bisnis adalah satu hal yang niscaya.
                         Mekar Laser hadir untuk menjadi Solusi.</p>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 text-">
+                <div class="col-12 col-lg-3 mb-3">
                     <hr class="line">
-                    <h5>LATEST ARTICLE</h5>
+                    <h5>LAYANAN</h5>
                     <ul class="list-unstyled style-a">
-                        <li class="mb-2 mt-5">
-                            <a href="#" class="nav-link">
-                                <h5>Pembuatan Website</h5>
-                            </a>
+                        <li class="mb-2 mt-3">
+                            Pembuatan Website                         
                         </li>
                         <hr>
-                        <li class="mb-2">
-                            <a href="#" class="nav-link">
-                                <h5>Pembuatan Neon Box</h5>
-                            </a>
+                        <li class="mb-2">                            
+                                Pembuatan Neon Box                            
                         </li>
                         <hr>
-                        <li class="mb-2">
-                            <a href="#" class="nav-link">
-                                <h5>Pembuatan Huruf Timbul</h5>
-                            </a>
+                        <li class="mb-2">                            
+                                Pembuatan Huruf Timbul                            
+                        </li>                        
+                      <hr>
+                      <li class="mb-2">                            
+                                Pembuatan Prototype IOT                            
+                        </li>                        
+                      <hr>
+                      <li class="mb-2">                            
+                                Pembuatan Papan Reklame                            
                         </li>
-                        </li>
+                      <hr>
+                      <li class="mb-2">
+                         Pembuatan Papan Akrilik
+                      </li>
+                      <hr>
+                      <li class="mb-2">
+                         Pembuatan Aplikasi Kasir
+                      </li>
+                      <hr>
+                      <li class="mb-2">
+                         Pembuatan Running Text
+                      </li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 text-dark">
+                <div class="col-12 col-lg-3 mb-3 text-dark">
                     <hr class="line">
-                    <h5>USEFUL LINKS</h5>
+                    <h5>LINK BERMANFAAT</h5>
                     <ul class="list-unstyled style-a">
-                        <li class="mb-2"><a href="/portofolio" class="nav-link">Hasil Kerja</a></li>
-                        <li class="mb-2"><a href="/team" class="nav-link">Tentang Kami</a></li>
-                        <li class="mb-2"><a href="/carrer" class="nav-link">Carrer</a></li>
+                        <li class="mb-2"><a href="/portfolio" class="nav-link">Hasil Kerja</a></li>
+                        <li class="mb-2"><a href="/profile" class="nav-link">Tentang Kami</a></li>                       
                         <li class="mb-2"><a href="/workphase" class="nav-link">Bagaimana cara pesan?</a></li>
                         <li class="mb-2"><a href="/faq" class="nav-link">Ruang Pertanyaan</a></li>
-                        <li class="mb-2"><a href="/privacy-policy" class="nav-link">Kebijakan Pribadi</a></li>
+                        <li class="mb-2"><a href="/privacy-policy" class="nav-link">Kebijakan dan Privacy</a></li>
                         <li class="mb-2"><a href="/terms-condition" class="nav-link">Syarat kondisi</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 text-dark">
+                <div class="col-12 col-lg-3 mb-3 text-dark">
                     <hr class="line">
-                    <h5>Partner</h5>
+                    <h5>Mitra</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="#" class="nav-link">Bima Helm</a></li>
                         <li class="mb-2"><a href="#" class="nav-link">FCS PROJECT</a></li>
@@ -75,14 +110,12 @@
     </footer>
 
     <footer class="m-3 text-center">
-        <strong>Copyright &copy 2022 : CV. Mekar Cutting Digital</strong>
+        <strong>Copyright &copy 2022 by CV. Mekar Cutting Digital</strong>
     </footer>
 
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i
-            class="fa-brands fa-whatsapp"></i></a>
-    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i
-            class="fa fa-arrow-up"></i></button>
+    <a class="whatsapp" href="https://wa.me/6285728060268" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 
     <!-- scroll top button -->
 
@@ -119,6 +152,7 @@
             once: false
         });
     </script>
+  	
 </body>
 
 </html>

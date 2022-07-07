@@ -7,6 +7,8 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MailerController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Services;
+use App\Models\Portfolio;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +29,7 @@ Route::get('/portfolio', [HomeController::class, 'portfolio']);
 Route::resource('/portfolio', PortfolioController::class);
 
 Route::get('/talk', [HomeController::class, 'talk']);
+Route::post('/talk/send-mail/', [MailerController::class, 'sendMail']);
 Route::match(['get', 'post'], '/talk/send-mail', [MailerController::class, 'sendMail']);
 
 Route::get('/product', [HomeController::class, 'product']);
@@ -36,9 +39,22 @@ Route::get('/product', [HomeController::class, 'product']);
 // Route::resource('/blog', BlogController::class);
 
 //route learn more services
-// Route::get('/services/{services:slug}', function (Services $services) {
-//     return view('services.detail-services', ['services' => $services]);
-// })->name('services');
+Route::get('/services/{id}', function($id) {
+	return view('services.detail-services', [	
+      	'title' => 'Layanan',
+		'services' => Services::find($id)
+	]);
+});
+
+//route learn more portfolio
+Route::get('/portfolio/{id}', function($id) {
+	return view('portfolio.detail-portfolio', [	
+      	'title' => 'Hasil Kerja',
+		'portfolio' => Portfolio::find($id)
+	]);
+});
+
+//Route::get('/detail/{id}', 'ServicesController@detail');
 
 
 // route untuk about
@@ -52,3 +68,6 @@ Route::get('/work-phase', [HomeController::class, 'workphase']);
 Route::get('/scope-of-work', [HomeController::class, 'sow']);
 
 Route::get('/faq', [HomeController::class, 'faq']);
+
+
+Route::get('/terms-condition', [HomeController::class, 'termscondition']);

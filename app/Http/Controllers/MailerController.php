@@ -25,7 +25,7 @@ class MailerController extends Controller
 
             try {
                 $mail->isSMTP();
-                $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+                $mail->SMTPDebug = SMTP::DEBUG_OFF;
                 $mail->Host = 'smtp.gmail.com';
                 $mail->Port = 587;
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
@@ -55,7 +55,6 @@ class MailerController extends Controller
                     <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Pesan : ' . $pesan . '</p>
                 </div>';
                 $mail->AltBody = $pesan;
-                $mail->send();
 
                 if ($mail->send()) {
                     return back()->with('berhasil', 'Email berhasil dikirim');

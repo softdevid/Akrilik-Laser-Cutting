@@ -3,14 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
     public function index()
-    {
-        return view('home/index', [
-            "title" => "BERANDA"
-        ]);
+    {      	
+      	$title = "Jasa Akrilik dan Neon Box - Purbalingga";
+        $services = DB::table('services')->paginate(3);
+        return view('home.index', ['title' => $title, 'services' => $services]);
     }
     public function services()
     {
@@ -39,7 +40,7 @@ class HomeController extends Controller
     public function profile()
     {
         return view('about/profile', [
-            "title" => "PROFIL",
+            "title" => "Mekar Akrilik Purbalingga",
         ]);
     }
     public function team()
@@ -64,6 +65,13 @@ class HomeController extends Controller
     {
         return view('about/faq', [
             "title" => "RUANG PERTANYAAN",
+        ]);
+    }
+  	
+  	public function termscondition()
+    {
+        return view('home/syaratkondisi', [
+            "title" => "Syarat Kondisi",
         ]);
     }
 }

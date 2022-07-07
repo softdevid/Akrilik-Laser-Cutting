@@ -13,7 +13,7 @@
         <div class="col-md-9">
             <article>
                 <p>
-                <h3 class="fw-bold judul-header1">Pertanyaan Seputar Advertising Reklame</h3>
+                <h3 class="fw-bold judul-header1">Pertanyaan Seputar Advertising</h3>
                 <div class="accordion accordion-flush pt-3" id="accordionFlushExample">
                     <div class="animasi1">
                         <div class="accordion-item">
@@ -47,7 +47,7 @@
                                     JL. Lingkar Purbalingga
                                 </div>
                             </div>
-                        </div>
+                        </div>                      
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -59,6 +59,18 @@
                                     Kami biasa mengerjakan reklame pembuatan huruf timbul, neon box,
                                     pylon sign, neon sign, dll. Selain itu kami juga biasa mengerjakan pembuatan
                                     aplikasi web dan dekstop.
+                                </div>
+                            </div>
+                        </div>
+                      	<div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFourth">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourth" aria-expanded="false" aria-controls="flush-collapseFourth">
+                                    Bolehkah saya melihat daftar harga barang dan produk Mekar Laser Cutting Digital?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFourth" class="accordion-collapse collapse" aria-labelledby="flush-headingFourth" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Sangat boleh, daftar harga bisa dilihat di bagian halaman <a href="/produk">Produk</a> atau juga di bagian <a href="/services">Layanan</a> untuk bisa tau pelayanan yang kita suguhkan
                                 </div>
                             </div>
                         </div>
@@ -139,44 +151,6 @@
                         <a class="nav-link" href="#"><i class="fa-brands fa-twitter-square"></i></a>
                     </div>
                 </div>
-                <hr class="line2">
-                <span class="text-uppercase sub-aside">latest case studies</span>
-                <article class="pt-3 sub-item link-item1">
-                    <a href="#" class="sub-header">
-                        <h6 class="fw-bold">Pagar Besi</h6>
-                    </a>
-                    <a href="#" class="sub-item">
-                        Pekerjaan Besi dan Alumunium
-                    </a>
-                    <hr>
-                </article>
-                <article class="sub-item link-item2">
-                    <a href="#" class="sub-header">
-                        <h6 class="fw-bold">Kanopi</h6>
-                    </a>
-                    <a href="#" class="sub-item">
-                        Pekerjaan Besi dan Alumunium
-                    </a>
-                    <hr>
-                </article>
-                <article class="sub-item link-item3">
-                    <a href="#" class="sub-header">
-                        <h6 class="fw-bold">Prototype IOT</h6>
-                    </a>
-                    <a href="#" class="sub-item">
-                        Prototype IOT & Digital Creative
-                    </a>
-                    <hr>
-                </article>
-                <article class="sub-item link-item4">
-                    <a href="#" class="sub-header">
-                        <h6 class="fw-bold">Food App Dekstop</h6>
-                    </a>
-                    <a href="#" class="sub-item">
-                        Digital Creative
-                    </a>
-                    <hr>
-                </article>
             </div>
         </div>
     </div>
